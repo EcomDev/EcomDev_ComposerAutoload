@@ -15,6 +15,7 @@ Build Status
 ------------
 * Latest Release: [![Master Branch](https://travis-ci.org/EcomDev/EcomDev_ComposerAutoload.png?branch=master)](https://travis-ci.org/EcomDev/EcomDev_ComposerAutoload)
 * Development Branch: [![Development Branch](https://travis-ci.org/EcomDev/EcomDev_ComposerAutoload.png?branch=develop)](https://travis-ci.org/EcomDev/EcomDev_ComposerAutoload)
+* Code Coverage: [![Coverage Status](https://img.shields.io/coveralls/EcomDev/EcomDev_ComposerAutoload.svg)](https://coveralls.io/r/EcomDev/EcomDev_ComposerAutoload)
 
 Installation
 ------------
