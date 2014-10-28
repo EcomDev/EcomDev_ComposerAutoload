@@ -1,0 +1,8 @@
+configuration_with_default_vendor_path:
+  file: vfs://root/vendor_default/vendor/autoload.php
+configuration_with_custom_vendor_path:
+  file: vfs://root/vendor_custom/lib/autoload.php
+configuration_with_non_existing_autoload:
+  file: false
+no_configuration:
+  file: false

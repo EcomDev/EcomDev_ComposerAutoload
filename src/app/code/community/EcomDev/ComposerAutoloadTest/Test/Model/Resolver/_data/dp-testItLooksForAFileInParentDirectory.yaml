@@ -1,0 +1,8 @@
+current_magento_directory:
+  path: current_magento_directory
+parent_magento_directory:
+  path: parent_magento_directory/magento_directory
+parent_of_parent_magento_directory:
+  path: parent_of_parent_magento_directory/parent_magento_directory/magento_directory
+library_magento_directory:
+  path: library_magento_directory

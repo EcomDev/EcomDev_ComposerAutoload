@@ -1,0 +1,6 @@
+valid_composer_file:
+  require-dev:
+    ecomdev/ecomdev_phpunit: *
+  file_path: vfs://root/composer_valid/composer.json
+invalid_composer_file:
+  file_path: vfs://root/composer_invalid/composer.json

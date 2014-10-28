@@ -1,0 +1,4 @@
+valid_composer_file:
+  dir: composer_valid
+invalid_composer_file:
+  dir: composer_invalid

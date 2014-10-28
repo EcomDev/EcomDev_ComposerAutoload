@@ -1,0 +1,4 @@
+# for php-coveralls
+src_dir: src
+coverage_clover: build/var/phpunit/coverage.xml
+json_path: build/var/coveralls-upload.json

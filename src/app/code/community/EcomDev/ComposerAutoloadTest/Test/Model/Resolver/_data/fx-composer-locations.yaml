@@ -1,0 +1,14 @@
+vfs:
+  current_magento_directory:
+    composer.json: '{}'
+  parent_magento_directory:
+    magento_directory: []
+    composer.json: '{}'
+  parent_of_parent_magento_directory:
+    parent_magento_directory:
+      magento_directory: []
+    composer.json: '{}'
+  library_magento_directory:
+    lib:
+      composer.json: '{}'
+  

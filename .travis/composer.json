@@ -1,0 +1,22 @@
+{
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "require-dev": {
+        "ecomdev/ecomdev_phpunit": "dev-dev",
+        "mikey179/vfsStream": "*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "magento-root-dir": "build"
+    }
+}

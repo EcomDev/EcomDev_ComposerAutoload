@@ -1,0 +1,33 @@
+{
+    "name": "ecomdev/composer_autoload",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento Composer Autoloader",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "require-dev": {
+        "magento/core": "1.9.0.1",
+        "ecomdev/ecomdev_phpunit": "dev-dev",
+        "mikey179/vfsStream": "*",
+        "ecomdev/mage-ci": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "authors":[
+        {
+            "name":"Ivan Chepurnyi",
+            "email": "ivan.chepurnyi@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "magento-root-dir": "build"
+    }
+}

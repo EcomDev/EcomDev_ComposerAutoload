@@ -1,0 +1,4 @@
+# EcomDev_ComposerAutoload definition
+src/app/etc/modules/*.xml                   app/etc/modules/
+src/app/etc/*.xml                           app/etc/
+src/app/code/community/EcomDev/*            app/code/community/EcomDev/
