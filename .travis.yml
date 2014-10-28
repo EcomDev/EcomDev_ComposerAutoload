@@ -24,6 +24,8 @@ before_script:
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a install
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a magento-config --db-name magento --same-db 1 --base-url http://test.magento.com/
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a change-status
-  - cd $MAGE_DIR 
 script:
-  - ../bin/phpunit --colors --coverage-text
+  - bin/mage-ci phpunit $MAGE_DIR --colors -c .travis/phpunit.xml
+after_script:
+  - bin/coveralls -v
+  

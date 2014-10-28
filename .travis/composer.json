@@ -4,7 +4,8 @@
     },
     "require-dev": {
         "ecomdev/ecomdev_phpunit": "dev-dev",
-        "mikey179/vfsStream": "*"
+        "mikey179/vfsStream": "*",
+        "satooshi/php-coveralls": "dev-master"
     },
     "repositories": [
         {
