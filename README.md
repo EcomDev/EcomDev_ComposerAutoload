@@ -20,19 +20,19 @@ Installation
 ------------
 Install module via composer:
 
-    ```json
-    {
-        "require": {
-           "ecomdev/composer_autoload": "*"
-        },
-        "repositories": [
-            {
-                "type": "composer",
-                "url": "http://packages.firegento.com"
-            }
-        ]
-    }
-    ```
+ ```json
+ {
+     "require": {
+        "ecomdev/composer_autoload": "*"
+     },
+     "repositories": [
+         {
+             "type": "composer",
+             "url": "http://packages.firegento.com"
+         }
+     ]
+ }
+ ```
 
 
 Contributions
