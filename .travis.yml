@@ -5,13 +5,13 @@ php:
 env:
   - MAGE=1.9.0.1
   - MAGE=1.8.1.0
-  - MAGE=1.7.0.2
 before_script:
   - MAGE_DIR=build
   # Change composer Magento version
   - > 
     sed "s/\"1.9.0.1\"/\"$MAGE\"/g" < composer.json > composer.json.tmp
   - rm composer.json && mv composer.json.tmp composer.json
+  - cat composer.json
   # Installing dependencies
   - composer install
   # Installing magento version with prepared DB dump
