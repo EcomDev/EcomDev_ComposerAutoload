@@ -1,6 +1,3 @@
-# same as Ruby lib
-repo_token: MGepA83pzhx5o7U1uO8MQjTgcbIjgNu09
-
 # for php-coveralls
 src_dir: src
 coverage_clover: build/var/phpunit/coverage.xml
