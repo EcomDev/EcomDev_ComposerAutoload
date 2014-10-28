@@ -10,10 +10,10 @@ before_script:
   - MAGE_DIR=build
   # Change composer Magento version
   - cp .travis/composer.json composer.json
-  # Installing dependencies
-  - composer install
   # Installing magento version with prepared DB dump
   - bin/mage-ci install $MAGE_DIR $MAGE magento -c
+  # Installing dependencies
+  - composer install
   # Installing EcomDev_PHPUnit module
   - bin/mage-ci install-module $MAGE_DIR $(pwd)
   # Configuring EcomDev_PHPUnit module
