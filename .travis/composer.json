@@ -4,8 +4,7 @@
     },
     "require-dev": {
         "ecomdev/ecomdev_phpunit": "dev-dev",
-        "mikey179/vfsStream": "*",
-        "ecomdev/mage-ci": "*"
+        "mikey179/vfsStream": "*"
     },
     "repositories": [
         {

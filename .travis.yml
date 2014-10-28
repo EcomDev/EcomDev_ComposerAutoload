@@ -10,6 +10,8 @@ before_script:
   - MAGE_DIR=build
   # Change composer Magento version
   - cp .travis/composer.json composer.json
+  # Install mage-ci
+  - source <(curl -s https://raw.githubusercontent.com/EcomDev/MageCI/master/installer)
   # Installing magento version with prepared DB dump
   - bin/mage-ci install $MAGE_DIR $MAGE magento -c
   # Installing dependencies
