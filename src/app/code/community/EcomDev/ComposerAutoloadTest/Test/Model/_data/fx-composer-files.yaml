@@ -1,0 +1,22 @@
+vfs:
+  composer_valid:
+    composer.json: --- |
+      {
+        "require-dev": {
+          "ecomdev/ecomdev_phpunit": "*" 
+        }
+      }
+  composer_invalid:
+    composer.json: --- |
+      {{
+          "ecomdev/ecomdev_phpunit": "*" 
+        }
+      }
+  vendor_default:
+    vendor:
+      autoload.php: <?php //
+  vendor_custom:
+    lib:
+      autoload.php: <?php //
+  vendor_non_exist:
+    vendor: []

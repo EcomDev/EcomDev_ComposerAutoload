@@ -1,0 +1,6 @@
+.idea/*
+.settings/*
+composer.lock
+atlassian-*.xml
+.vagrant/*
+build/*

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <EcomDev_ComposerAutoloadTest>
+            <codePool>community</codePool>
+            <active>true</active>
+        </EcomDev_ComposerAutoloadTest>
+    </modules>
+</config>

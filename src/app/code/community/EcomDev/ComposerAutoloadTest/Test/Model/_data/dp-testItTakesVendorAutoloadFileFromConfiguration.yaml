@@ -1,0 +1,13 @@
+configuration_with_default_vendor_path:
+  config:
+    file_path: vendor_default/composer.json
+configuration_with_custom_vendor_path:
+  config:
+    config:
+      vendor-dir: lib
+    file_path: vendor_custom/composer.json
+configuration_with_non_existing_autoload:
+  config:
+    file_path: vendor_non_exist/composer.json
+no_configuration:
+  config: false
