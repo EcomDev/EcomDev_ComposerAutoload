@@ -1,6 +1,5 @@
 # same as Ruby lib
 repo_token: MGepA83pzhx5o7U1uO8MQjTgcbIjgNu09
-service_name: travis-ci
 
 # for php-coveralls
 src_dir: src
