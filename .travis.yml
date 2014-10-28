@@ -26,4 +26,4 @@ before_script:
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a change-status
 script:
   # output php ini info for checking the problem
-  - bin/phpunit $MAGE_DIR --colors --coverage-text -d display_errors=1
+  - bin/phpunit $MAGE_DIR --colors
