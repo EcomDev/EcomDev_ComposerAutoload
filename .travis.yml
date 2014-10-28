@@ -19,8 +19,9 @@ before_script:
   # Installing EcomDev_PHPUnit module
   - bin/mage-ci install-module $MAGE_DIR $(pwd)
   # Configuring EcomDev_PHPUnit module
+  - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a install
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a magento-config --db-name magento --same-db 1 --base-url http://test.magento.com/
-  # Configuring test suite
   - bin/mage-ci shell $MAGE_DIR ecomdev-phpunit.php -a change-status
+  - cd $MAGE_DIR 
 script:
-  - cd $MAGE_DIR && ../bin/phpunit --colors --coverage-text
+  - ../bin/phpunit --colors --coverage-text
