@@ -11,7 +11,8 @@ env:
 before_script:
   - MAGE_DIR=build
   # Change composer Magento version
-  - sed 's/"magento\/core": "1.9.0.1"/"magento\/core": "$MAGE",/g' < composer.json > composer.json.tmp
+  - > 
+    sed 's/"magento\/core": "[^"]+"/"magento\/core": "$MAGE",/g' < composer.json > composer.json.tmp
   - rm composer.json && mv composer.json.tmp composer.json
   # Installing dependencies
   - composer install
