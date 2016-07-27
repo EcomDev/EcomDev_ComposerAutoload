@@ -56,15 +56,15 @@ class EcomDev_ComposerAutoload_Model_Autoloader
      */
     public function register()
     {
-        if (in_array(array(Varien_Autoload::instance(), 'autoload'), spl_autoload_functions(), true)) {
-            spl_autoload_unregister(array(Varien_Autoload::instance(), 'autoload'));
-            spl_autoload_register(array($this, 'autoload'));
-        }
-        
         if ($autoloaderFile = $this->getAutoloadFilePath()) {
             include $autoloaderFile;
         }
-        
+
+        if (in_array(array(Varien_Autoload::instance(), 'autoload'), spl_autoload_functions(), true)) {
+            spl_autoload_unregister(array(Varien_Autoload::instance(), 'autoload'));
+            spl_autoload_register(array($this, 'autoload'), true, true);
+        }
+
         return $this;
     }
 
